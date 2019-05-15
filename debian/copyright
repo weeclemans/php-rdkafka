@@ -1,0 +1,26 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2016, Arnaud Le Blanc |
+License: PHP-3.01
+
+Files: CREDITS
+       README.md
+       config.m4
+       config.w32
+       examples/*
+       zeval.h
+License: Expat
+Comment: No explicit license found, using license(s) from:
+ LICENSE
+
+Files: LICENSE
+Copyright: 2015, Arnaud Le Blanc
+License: Expat
+
+License: Expat
+Comment: Add the corresponding license text here
+
+License: PHP-3.01
+Comment: Add the corresponding license text here
+

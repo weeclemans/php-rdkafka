@@ -1,0 +1,22 @@
+Source: php-rdkafka
+Section: php
+Priority: optional
+Maintainer: Debian PHP PECL Maintainers <pkg-php-pecl@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Vladimir Laskov samflanker@gmail.com>
+Build-Depends: debhelper (>= 9),
+               dh-php (>= 0.25~),
+               librdkafka-dev,
+               php-all-dev
+Standards-Version: 3.1.0
+Vcs-Browser: https://salsa.debian.org/php-team/pecl/php-cassandra
+Vcs-Git: https://salsa.debian.org/php-team/pecl/php-cassandra.git
+Homepage: http://pecl.php.net/package/rdkafka
+
+Package: php-rdkafka
+Architecture: any
+Depends: ${misc:Depends},
+         ${php:Depends},
+         ${shlibs:Depends}
+Provides: ${php:Provides}
+Description: Kafka client based on librdkafka
+ This extension is a librdkafka binding providing a working client for Kafka
