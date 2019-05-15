@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 9),
                librdkafka-dev,
                php-all-dev
 Standards-Version: 3.1.0
-Vcs-Browser: https://salsa.debian.org/php-team/pecl/php-cassandra
-Vcs-Git: https://salsa.debian.org/php-team/pecl/php-cassandra.git
+Vcs-Browser: https://github.com/weeclemans/php-rdkafka
+Vcs-Git: https://github.com/weeclemans/php-rdkafka.git
 Homepage: http://pecl.php.net/package/rdkafka
 
 Package: php-rdkafka
