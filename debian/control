@@ -2,7 +2,7 @@ Source: php-rdkafka
 Section: php
 Priority: optional
 Maintainer: Debian PHP PECL Maintainers <pkg-php-pecl@lists.alioth.debian.org>
-Uploaders: Ondřej Surý <ondrej@debian.org>, Vladimir Laskov samflanker@gmail.com>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Vladimir Laskov <samflanker@gmail.com>
 Build-Depends: debhelper (>= 9),
                dh-php (>= 0.25~),
                librdkafka-dev,
